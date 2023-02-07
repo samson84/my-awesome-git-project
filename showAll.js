@@ -4,7 +4,7 @@ function main() {
     const beers = getBeers();
 
     beers.forEach(function (beer) {
-        console.log(beer.name)
+        console.log(`${beer.name}, ${beer.brewery}`)
     })
 
 }
